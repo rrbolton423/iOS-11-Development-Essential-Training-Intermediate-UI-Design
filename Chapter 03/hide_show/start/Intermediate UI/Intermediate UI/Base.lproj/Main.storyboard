@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Intermediate_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ud4-GG-sOl">
+                                <rect key="frame" x="16" y="16" width="635" height="343"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDB-2t-vzF">
+                                <rect key="frame" x="341.5" y="16" width="309.5" height="343"/>
+                                <color key="backgroundColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="EbM-0Z-Ky7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ud4-GG-sOl" secondAttribute="trailing" constant="16" id="Fkp-SM-cqf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ud4-GG-sOl" secondAttribute="bottom" constant="16" id="Gaq-8a-Rz2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VDB-2t-vzF" secondAttribute="bottom" constant="16" id="LOj-2F-8aH"/>
+                            <constraint firstItem="Ud4-GG-sOl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="NzZ-Ii-bhc"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="width" secondItem="Ud4-GG-sOl" secondAttribute="width" id="PdM-Xf-kU1"/>
+                            <constraint firstItem="Ud4-GG-sOl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VCM-PN-Ob4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ud4-GG-sOl" secondAttribute="trailing" constant="16" id="Xn4-lx-ZcC"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="leading" secondItem="Ud4-GG-sOl" secondAttribute="trailing" constant="16" id="aIt-P1-DLK"/>
+                            <constraint firstItem="Ud4-GG-sOl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bQG-Er-igP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VDB-2t-vzF" secondAttribute="trailing" constant="16" id="evr-TZ-r8A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VDB-2t-vzF" secondAttribute="trailing" constant="16" id="fVy-8F-Ivp"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="height" secondItem="Ud4-GG-sOl" secondAttribute="height" id="hq5-07-Ixq"/>
+                            <constraint firstItem="Ud4-GG-sOl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="ixr-Py-fsY"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="width" secondItem="Ud4-GG-sOl" secondAttribute="width" id="lxr-u4-huX"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="nrF-Iy-Ctq"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="top" secondItem="Ud4-GG-sOl" secondAttribute="bottom" constant="16" id="p4o-Q1-lEP"/>
+                            <constraint firstItem="VDB-2t-vzF" firstAttribute="height" secondItem="Ud4-GG-sOl" secondAttribute="height" id="pqD-at-5H8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VDB-2t-vzF" secondAttribute="bottom" constant="16" id="y02-Gy-vPa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EbM-0Z-Ky7"/>
+                                <exclude reference="PdM-Xf-kU1"/>
+                                <exclude reference="aIt-P1-DLK"/>
+                                <exclude reference="hq5-07-Ixq"/>
+                                <exclude reference="Fkp-SM-cqf"/>
+                                <exclude reference="Gaq-8a-Rz2"/>
+                                <exclude reference="evr-TZ-r8A"/>
+                                <exclude reference="y02-Gy-vPa"/>
+                                <exclude reference="bQG-Er-igP"/>
+                                <exclude reference="ixr-Py-fsY"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="VDB-2t-vzF"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="EbM-0Z-Ky7"/>
+                                <include reference="PdM-Xf-kU1"/>
+                                <include reference="aIt-P1-DLK"/>
+                                <include reference="hq5-07-Ixq"/>
+                                <exclude reference="lxr-u4-huX"/>
+                                <exclude reference="nrF-Iy-Ctq"/>
+                                <exclude reference="p4o-Q1-lEP"/>
+                                <exclude reference="pqD-at-5H8"/>
+                                <include reference="Fkp-SM-cqf"/>
+                                <include reference="Gaq-8a-Rz2"/>
+                                <exclude reference="LOj-2F-8aH"/>
+                                <exclude reference="Xn4-lx-ZcC"/>
+                                <include reference="evr-TZ-r8A"/>
+                                <exclude reference="fVy-8F-Ivp"/>
+                                <include reference="y02-Gy-vPa"/>
+                                <exclude reference="NzZ-Ii-bhc"/>
+                                <exclude reference="VCM-PN-Ob4"/>
+                                <include reference="bQG-Er-igP"/>
+                                <include reference="ixr-Py-fsY"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.28185907046478" y="127.2"/>
+        </scene>
+    </scenes>
+</document>
